@@ -22,16 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6a1a344-994f-45f4-a989-50ea98da591a" name="Default Changelist" comment="zad 2">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cw1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e6a1a344-994f-45f4-a989-50ea98da591a" name="Default Changelist" comment="zad 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -86,7 +88,7 @@
       <workItem from="1603676262778" duration="610000" />
       <workItem from="1603720415902" duration="892000" />
       <workItem from="1603724103330" duration="3106000" />
-      <workItem from="1603921645398" duration="3215000" />
+      <workItem from="1603921645398" duration="3601000" />
     </task>
     <task id="LOCAL-00001" summary="zad 2">
       <created>1603726010410</created>
@@ -95,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603726010410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="zad 4">
+      <created>1603925109066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603925109066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,25 +127,26 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="zad 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="zad 2" />
+    <MESSAGE value="zad 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="zad 4" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="294" key="GridCell.Tab.0.bottom" timestamp="1603924566361">
+    <state width="914" height="294" key="GridCell.Tab.0.bottom" timestamp="1603925043974">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603924566361" />
-    <state width="914" height="294" key="GridCell.Tab.0.center" timestamp="1603924566361">
+    <state width="914" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603925043974" />
+    <state width="914" height="294" key="GridCell.Tab.0.center" timestamp="1603925043974">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="294" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603924566361" />
-    <state width="914" height="294" key="GridCell.Tab.0.left" timestamp="1603924566360">
+    <state width="914" height="294" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603925043974" />
+    <state width="914" height="294" key="GridCell.Tab.0.left" timestamp="1603925043974">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="294" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603924566360" />
-    <state width="914" height="294" key="GridCell.Tab.0.right" timestamp="1603924566361">
+    <state width="914" height="294" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603925043974" />
+    <state width="914" height="294" key="GridCell.Tab.0.right" timestamp="1603925043974">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="294" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603924566361" />
+    <state width="914" height="294" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603925043974" />
     <state width="865" height="390" key="GridCell.Tab.1.bottom" timestamp="1603740567866">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -209,9 +219,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="324" y="156" width="1200" height="800" key="VCS.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603721270413" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603726016227">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603925113759">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603726016227" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603925113759" />
   </component>
 </project>

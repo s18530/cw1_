@@ -13,7 +13,7 @@ namespace cw1
             {
                 Console.WriteLine("Start");
                 var httpClient = new HttpClient();
-                var response = await httpClient.GetAsync("https://www.pja.edu.pl");
+                var response = await httpClient.GetAsync(args[0]);
 
                 if (response.IsSuccessStatusCode)
                 {

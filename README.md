@@ -1,2 +1,2 @@
-# cw1_
-Konrad Pilewski, internetowe , s18530
+# Konrad Pilewski, internetowe , s18530
+ukończone

@@ -11,23 +11,48 @@ namespace cw1
         public static async Task Main(string[] args)
         {
             {
-                Console.WriteLine("Start");
-                var httpClient = new HttpClient();
-                var response = await httpClient.GetAsync(args[0]);
+                string url = "";
+                if (args.Length == 1 && args[0] != null)
+                {
+                    url = args[0];
+                }
+                else
+                {
+                    throw new ArgumentNullException();
+                }
 
+                var urlRegex = new Regex(@"https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)");
+                var urlMatches = urlRegex.Matches(url ?? throw new ArgumentNullException());
+                var httpClient = new HttpClient();
+                var response = await httpClient.GetAsync(url);
+               
+                if (urlMatches.Count == 0)
+                {
+                    throw new ArgumentException();
+                }
+               
                 if (response.IsSuccessStatusCode)
                 {
                     var html = await response.Content.ReadAsStringAsync();
-
-                    var regex = new Regex("[a-z0-9]+@[a-z.]+");
-
-                    var matches = regex.Matches(html);
-
-                    foreach (var i in matches)
+                    var emailRegex = new Regex("[a-z0-9]+@[a-z.]+");
+                    var emailMatches = emailRegex.Matches(html);
+                    var uniqeEmailMatches = Enumerable.OfType<Match>(emailMatches).Select(m => m.Value).Distinct();
+                    if (emailMatches.Count == 0)
                     {
-                        Console.WriteLine(i);
+                        Console.WriteLine("Nie znaleziono adresow email");
+                    }else
+                    {
+                        foreach (var i in uniqeEmailMatches.ToList())
+                        {
+                            Console.WriteLine(i);
+                        }
                     }
                 }
+                else
+                {
+                    Console.WriteLine("Blad w czasie pobierania strony");
+                }
+                httpClient.Dispose();
                 Console.WriteLine("Koniec");
             }
         }
